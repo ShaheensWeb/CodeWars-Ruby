@@ -17,3 +17,11 @@ def zip first, second #functions name is zip, and first and second are lists to 
 end #and after that flatten.compact to merge all the interweaving arrays
 
 #note: p = print value in ruby
+
+
+#More info on .flatten function below.
+#Note: read up on .compact          
+#flatten(level) → new_ary
+#Returns a new array that is a one-dimensional flattening of this array (recursively). That is, for every element 
+#that is an array, extract its elements into the new array. If the optional level argument determines the level of
+#recursion to flatten.
